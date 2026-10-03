@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run TU on core",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "args": ["node_modules/.bin/jest"],
+      "console": "internalConsole",
+      "outputCapture": "std"
+    }
+  ]
+}
